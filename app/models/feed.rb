@@ -5,7 +5,6 @@ class Feed < ActiveRecord::Base
 
   def self.find_or_create_by_url(url)
     feed = Feed.find_by_url(url)
-    debugger
     return feed if feed
 
     begin

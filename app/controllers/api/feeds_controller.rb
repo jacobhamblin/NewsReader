@@ -16,6 +16,16 @@ class Api::FeedsController < ApplicationController
     end
   end
 
+  def destroy
+    @feed = Feed.find(params[:id])
+
+    if @feed.destroy
+      render json: @feed
+    else
+      render json: @feed.errors.full_messages, status: 422
+    end
+  end
+
   private
 
   def feed_params

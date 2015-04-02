@@ -3,7 +3,6 @@ NewsReader.Collections.Entries = Backbone.Collection.extend ({
   model: NewsReader.Models.Entry,
 
   initialize: function (options) {
-    // debugger
     this.feed = options.feed;
   },
 

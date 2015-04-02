@@ -1,5 +1,13 @@
-<ul>
-  <% feeds.each(function (feed) { %>
-  <li><a href="#/feeds/<%= feed.id %>"> <%= feed.get('title') %> </a></li>
-  <% }, this) %>
+<ul class="feed-index">
+
 </ul>
+
+<br>
+<h3>New feed</h3>
+<form class="new-feed-form">
+  <input type="text" name="title" placeholder="title">
+
+  <input type="text" name="url" placeholder="url">
+
+  <input type="submit" value="submit">
+</form>
