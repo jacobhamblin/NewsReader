@@ -10,7 +10,3 @@ window.NewsReader = {
     Backbone.history.start();
   }
 };
-
-$(document).ready(function(){
-  NewsReader.initialize();
-});

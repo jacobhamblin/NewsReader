@@ -12,6 +12,7 @@ gem 'simple-rss'
 gem 'backbone-on-rails'
 gem 'ejs'
 gem 'byebug'
+gem 'pry-rails'
 
 group :doc do
   gem 'sdoc', require: false
