@@ -1,5 +1,7 @@
 #NewsReader
 
+simple backbone exercise
+
 - composite views backbone and rails app displays rss feeds
 
 ![index](./Selection_001.png)
